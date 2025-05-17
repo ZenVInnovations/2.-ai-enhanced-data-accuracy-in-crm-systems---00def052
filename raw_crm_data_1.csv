@@ -1,0 +1,6 @@
+CustomerID,Name,Email,Phone,City,Country
+1,John Doe,john.doe@example.com,123-456-7890,New York,USA
+2,Jane Smith,jane.smith@example.com,987-654-3210,Los Angeles,USA
+3,Peter Jones,peter.j@example.com,555-123-4567,London,UK
+4,John Doe,john.doe@example.com,,New York,USA
+5,Alice Brown,alice.b@sample.com,111-222-3333,Paris,France
