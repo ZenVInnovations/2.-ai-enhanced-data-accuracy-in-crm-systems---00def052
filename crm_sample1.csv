@@ -1,0 +1,11 @@
+CustomerID,FirstName,LastName,Email,Phone,JoinDate,Country,Status
+1001,John,Doe,john.doe@email.com,123-456-7890,2023-01-15,USA,Active
+1002,Jane,Smith,jane.smith@email,321-654-0987,2022-11-30,United States,Active
+1003,Mike,O'Conner,mike.o'conner@email.com,1234567890,2023/02/20,usa,Inactive
+1004,Maria,,maria.garcia@email.com,555-222-1111,2023-05-01,Spain,Active
+1005,,Lee,lee.wang@email.com,,2021-07-19,China,Active
+1006,Anna,Kowalska,anna.kowalska@email.com,888-333-2222,2023-09-10,Poland,
+1007,Jon,Doe,john.doe@email.com,123-456-7890,2023-01-15,USA,Active
+1008,José,Gonzalez,jose.gonzalez@email,444-555-6666,2022-10-05,Spain,Inctive
+1009,Sara,Müller,sara.muller@email.com,444 333 2222,2023-03-03,Germany,Active
+1010,Liam,OBrien,liam.obrien@email..com,000-111-2222,2023-04-21,Ireland,Active

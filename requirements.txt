@@ -1,4 +1,6 @@
-streamlit==1.12.0
-pandas==1.5.0
-fuzzywuzzy==0.18.0
-python-Levenshtein==0.12.2
+pandas
+scikit-learn
+numpy
+openpyxl
+streamlit
+
