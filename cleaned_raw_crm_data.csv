@@ -1,0 +1,13 @@
+customer_id,name,email,phone,address,company,last_purchase_date,segment
+1,John Doe,john@example.com,555-1234,123 Main St,IBM,2023-10-15,Enterprise
+2,Jane Smith,jane.smith@test.com,555-5678,456 Oak Ave,Google,2023-09-20,SMB
+6,Alice Wong,alice.wong@xyz.com,555-8765,321 Elm Ln,Microsoft,2023-08-05,Enterprise
+7,Mike Johnson,mike@johnson.com,555-9999,,Apple,2023-11-12,Unknown
+13,Susan Green,susan.green@market.com,555-2233,400 Walnut St,Dell,2023-10-01,SMB
+15,Tom Hanks,tomh@movies.com,555-0001,890 Birch Rd,Paramount,2023-07-15,Enterprise
+16,Sam Wilson,sam.w@test.net,555-2311,200 Spruce Ln,Adobe,2023-05-09,SMB
+17,Chris Lee,chris.lee@test.com,555-7890,789 Maple Dr,Netflix,2023-07-30,SMB
+18,Sarah Lee,slee@netflix.com,555-8912,159 Maple Dr,Netflix,2023-07-30,SMB
+20,Linda Park,linda.park@test.com,555-3344,690 Cherry St,HP,2023-10-25,Mid-Market
+25,James White,james@white.com,555-7654,760 River Rd,Oracle,2023-09-13,Mid-Market
+29,Anna Kim,anna.kim@test.com,555-1122,333 Oak St,Google,2023-08-21,SMB

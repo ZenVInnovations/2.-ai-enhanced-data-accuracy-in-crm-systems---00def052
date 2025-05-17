@@ -1,0 +1,5 @@
+customer_id,name,email,phone,address,company,last_purchase_date,segment
+1,John Doe,john@example.com,555-1234,123 Main St,IBM,15-10-2023,Enterprise
+2,Jane Smith,jane.smith@test.com,555-5678,456 Oak Ave,Google,20-09-2023,SMB
+6,Alice Wong,alice.wong@xyz.com,555-8765,321 Elm Ln,Microsoft,05-08-2023,Enterprise
+7,Mike Johnson,mike@johnson.com,555-9999,,Apple,12-11-2023,Unknown
