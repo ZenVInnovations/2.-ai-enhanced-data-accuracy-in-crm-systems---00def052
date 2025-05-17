@@ -1,0 +1,70 @@
+#after running src/main.py
+
+Attempting to load file: data/raw_crm_data_1.csv
+Attempting to load file: data/raw_crm_data_2.csv
+
+--- Duplicate Detection ---
+Exact Duplicates (based on cleaned Name and Email):
+   CustomerID      Name  ... Location         Region
+0         1.0  John Doe  ...      NaN            NaN
+3         4.0  John Doe  ...      NaN            NaN
+5         NaN       NaN  ...       LA  United States
+6         NaN       NaN  ...   Berlin        Germany
+7         NaN       NaN  ...   London        England
+8         NaN       NaN  ...    Tokyo          Japan
+9         NaN       NaN  ...       NY            USA
+
+[7 rows x 22 columns]
+
+Fuzzy Duplicates in Names:
+Empty DataFrame
+Columns: [value1, value2, similarity]
+Index: []
+
+Fuzzy Duplicates in Emails:
+Empty DataFrame
+Columns: [value1, value2, similarity]
+Index: []
+
+--- Incomplete Data Handling ---
+Missing Value Analysis:
+                       Missing Count  Missing Percentage
+Phone                              6            2.727273
+Phone_cleaned                      6            2.727273
+CustomerID                         5            2.272727
+City_cleaned                       5            2.272727
+Location                           5            2.272727
+Contact                            5            2.272727
+Email Address                      5            2.272727
+FullName                           5            2.272727
+ID                                 5            2.272727
+Region_cleaned                     5            2.272727
+Country_cleaned                    5            2.272727
+Location_cleaned                   5            2.272727
+Contact_cleaned                    5            2.272727
+Name                               5            2.272727
+Email Address_cleaned              5            2.272727
+Email_cleaned                      5            2.272727
+FullName_cleaned                   5            2.272727
+Name_cleaned                       5            2.272727
+Country                            5            2.272727
+City                               5            2.272727
+Email                              5            2.272727
+Region                             5            2.272727
+
+Data after dropping rows with missing phone numbers:
+Empty DataFrame
+Columns: [CustomerID, Name, Email, Phone, City, Country, Name_cleaned, FullName_cleaned, Email_cleaned, Email Address_cleaned, 
+    Phone_cleaned, Contact_cleaned, City_cleaned, Location_cleaned, Country_cleaned, Region_cleaned, ID, FullName, Email Address, Contact, Location, Region]
+
+Index: []
+
+Data after filling missing cities/locations:
+   CustomerID         Name                   Email  ... Contact Location Region
+0         1.0     John Doe    john.doe@example.com  ...     NaN  Unknown    NaN
+1         2.0   Jane Smith  jane.smith@example.com  ...     NaN  Unknown    NaN
+2         3.0  Peter Jones     peter.j@example.com  ...     NaN  Unknown    NaN
+3         4.0     John Doe    john.doe@example.com  ...     NaN  Unknown    NaN
+4         5.0  Alice Brown      alice.b@sample.com  ...     NaN  Unknown    NaN
+
+[5 rows x 22 columns]

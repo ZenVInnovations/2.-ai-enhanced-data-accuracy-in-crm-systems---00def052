@@ -1,0 +1,27 @@
+1.project structure :
+crm_data_accuracy/
+├── crm_data_accuracy.py       # Main Python script
+├── crm_customers.csv          # Sample input data
+├── requirements.txt           # Python dependencies
+└── README.md                  # Project documentation
+
+2.Features
+✅ Email & Phone Number Validation
+
+✅ Missing Value Imputation using KNNImputer
+
+✅ Anomaly Detection with Isolation Forest
+
+✅ Export Cleaned Data to .xlsx or .csv
+
+
+3.Add-On: Interactive Dashboard with Streamlit
+This will let you:
+
+Upload a CRM file
+
+View validation results
+
+Explore anomalies visually
+
+Download cleaned data

@@ -1,0 +1,9 @@
+customer_id,name,email,phone,age,annual_income
+101,John Doe,john@example.com,1234567890,29,55000
+102,Jane Smith,jane[at]email.com,abc123,35,72000
+103,Bob Stone,,9876543210,,62000
+104,Alice Lee,alice@example.com,1122334455,28,
+105,Chris Wong,chris.wong@example,9988776655,30,58000
+106,Linda Ray,linda.ray@email.com,56789,45,91000
+107,Mark Lee,mark@example.com,112345678901234,31,87000
+108,Nina Patel,nina@domain.com,,27,68000

@@ -1,0 +1,22 @@
+#after running src/incomplete_data_handling.py
+
+Missing Value Analysis:
+       Missing Count  Missing Percentage
+Phone              2                10.0
+Name               1                 5.0
+Email              1                 5.0
+City               1                 5.0
+
+Data after dropping rows with missing phone numbers:
+         Name                 Email         Phone         City
+0    John Doe  john.doe@example.com  123-456-7890     New York
+1  Jane Smith                  None  987-654-3210  Los Angeles
+3        None      test@example.com  111-222-3333         None
+
+Data after filling missing cities/locations:
+          Name                 Email         Phone         City
+0     John Doe  john.doe@example.com  123-456-7890     New York
+1   Jane Smith                  None  987-654-3210  Los Angeles
+2  Peter Jones   peter.j@example.com          None       London
+3         None      test@example.com  111-222-3333      Unknown
+4  Alice Brown    alice.b@sample.com          None        Paris

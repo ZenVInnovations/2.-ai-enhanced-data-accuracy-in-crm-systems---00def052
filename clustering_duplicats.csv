@@ -1,0 +1,15 @@
+#after running src/clustering_duplicates.py
+
+Potential Duplicates in Cluster 0:
+          Name                 Email         Phone
+0     John Doe  john.doe@example.com  123-456-7890
+1      John D.   johndoe@example.com    1234567890
+4  Peter Jones   peter.j@example.com  555-123-4567
+5   Peter Jone    peterj@example.com    5551234567
+
+Potential Duplicates in Cluster 1:
+         Name                   Email         Phone
+2  Jane Smith  jane.smith@example.com  987-654-3210
+3     Jane S.  jane.smith@example.com    9876543210
+
+[Done] exited with code=0 in 1.519 seconds

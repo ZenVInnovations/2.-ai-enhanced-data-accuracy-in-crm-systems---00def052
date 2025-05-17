@@ -1,0 +1,23 @@
+#after running src/duplicate_detection.py
+
+Exact Duplicates (based on cleaned Name and Email):
+   CustomerID      Name  ... Location         Region
+0         1.0  John Doe  ...      NaN            NaN
+3         4.0  John Doe  ...      NaN            NaN
+5         NaN       NaN  ...       LA  United States
+6         NaN       NaN  ...   Berlin        Germany
+7         NaN       NaN  ...   London        England
+8         NaN       NaN  ...    Tokyo          Japan
+9         NaN       NaN  ...       NY            USA
+
+[7 rows x 22 columns]
+
+Fuzzy Duplicates in Names:
+Empty DataFrame
+Columns: [value1, value2, similarity]
+Index: []
+
+Fuzzy Duplicates in Emails:
+Empty DataFrame
+Columns: [value1, value2, similarity]
+Index: []
