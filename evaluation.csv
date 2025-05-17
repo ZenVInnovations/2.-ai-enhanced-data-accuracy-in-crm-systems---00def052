@@ -1,0 +1,5 @@
+#after running src/evaluation.py
+
+Duplicate Detection Metrics: {'precision': 0.5, 'recall': 0.5, 'f1': 0.5}
+
+Completeness Metrics: {'completeness_before': 0.6666666666666667, 'completeness_after': 1.0, 'improvement': 0.33333333333333326}
