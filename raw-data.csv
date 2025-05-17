@@ -1,0 +1,12 @@
+customer_id,name,email,phone,address,company,last_purchase_date,segment
+1,John Doe,john@example.com,555-1234,123 Main St,IBM,15-10-2023,Enterprise
+2,Jane Smith,jane.smith@test.com,555-5678,456 Oak Ave,Google,20-09-2023,SMB
+3,John Do,johndoe@example.com,555-1234,123 Main Street,IBM,15-10-2023,Enterprise
+4,Robert Brown,robert@abc.com,,789 Pine Rd,Amazon,,Mid-Market
+5,Jane Smith,jane@test.com,555-5678,456 Oak Avenue,,20-09-2023,SMB
+6,Alice Wong,alice.wong@xyz.com,555-8765,321 Elm Ln,Microsoft,05-08-2023,Enterprise
+7,Mike Johnson,mike@johnson.com,555-9999,,Apple,12-11-2023,
+8,Sarah Lee,sarah.lee@test.com,,159 Maple Dr,Netflix,30-07-2023,SMB
+9,John Doe,john.doe@example.com,555-1234,123 Main St,IBM,15-10-2023,Enterprise
+10,Robert Brown,robert@abc.com,555-4321,789 Pine Road,Amazon,18-06-2023,Mid-Market
+11,David Kim,david@kim,5551111,100 Tech Park,,10-05-2023,Startup

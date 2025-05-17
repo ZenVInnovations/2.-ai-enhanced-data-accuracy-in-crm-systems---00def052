@@ -1,0 +1,31 @@
+customer_id,name,email,phone,address,company,last_purchase_date,segment
+1,John Doe,john@example.com,555-1234,123 Main St,IBM,2023-10-15,Enterprise
+2,Jane Smith,jane.smith@test.com,555-5678,456 Oak Ave,Google,2023-09-20,SMB
+3,John Do,johndoe@example.com,555-1234,123 Main Street,IBM,2023-10-15,Enterprise
+4,Robert Brown,robert@abc.com,,789 Pine Rd,Amazon,,Mid-Market
+5,Jane Smith,jane@test.com,555-5678,456 Oak Avenue,,2023-09-20,SMB
+6,Alice Wong,alice.wong@xyz.com,555-8765,321 Elm Ln,Microsoft,2023-08-05,Enterprise
+7,Mike Johnson,mike@johnson.com,555-9999,,Apple,2023-11-12,
+8,Sarah Lee,sarah.lee@test.com,,159 Maple Dr,Netflix,2023-07-30,SMB
+9,John Doe,john.doe@example.com,555-1234,123 Main St,IBM,2023-10-15,Enterprise
+10,Robert Brown,robert@abc.com,555-4321,789 Pine Road,Amazon ,2023-06-18,Mid-Market
+11,Alicia Wong,alice.wong@xyz.com,555-8765,321 Elm Lane,Microsoft,2023-08-05,Enterprise
+12,Michael Johnson,mike@johnson.com,555-9999,457 Palm St,Apple,2023-11-12,Enterprise
+13,Susan Green,susan.green@market.com,555-2233,400 Walnut St,Dell,2023-10-01,SMB
+14,Jane Smyth,jane.smith@test.com,555-5678,456 Oak Ave,Google,2023-09-20,SMB
+15,Tom Hanks,tomh@movies.com,555-0001,890 Birch Rd,Paramount,2023-07-15,Enterprise
+16,Sam Wilson,sam.w@test.net,555-2311,200 Spruce Ln,Adobe,2023-05-09,SMB
+17,Chris Lee,chris.lee@test.com,555-7890,789 Maple Dr,Netflix,2023-07-30,SMB
+18,Sarah Lee,slee@netflix.com,555-8912,159 Maple Dr,Netflix,2023-07-30,SMB
+19,Tommy Hanks,tomh@movies.com,555-0001,890 Birch Road,Paramount,2023-07-15,Enterprise
+20,Linda Park,linda.park@test.com,555-3344,690 Cherry St,HP,2023-10-25,Mid-Market
+21,Bob Brown,robert@abc.com,555-4321,789 Pine Rd,Amazon,2023-06-18,Mid-Market
+22,Amy Wong,amy.w@xyz.com,555-8765,321 Elm Ln,Microsoft,2023-08-05,Enterprise
+23,John Doe,john@example.com,555-1234,123 Main St,IBM,2023-10-15,Enterprise
+24,Eva Green,eva.green@market.com,555-2233,400 Walnut Street,Dell,2023-10-01,SMB
+25,James White,james@white.com,555-7654,760 River Rd,Oracle,2023-09-13,Mid-Market
+26,Mary Black,mary@black.com,,303 Lakeview Dr,Salesforce,,Enterprise
+27,Linda Park,linda.park@test.com,555-3344,690 Cherry Street,HP,2023-10-25,Mid-Market
+28,Sam Wilson,s.wilson@test.net,555-2311,200 Spruce Lane,Adobe,2023-05-09,SMB
+29,Anna Kim,anna.kim@test.com,555-1122,333 Oak St,Google,2023-08-21,SMB
+30,John D,john@example.com,555-1234,123 Main St.,IBM,2023-10-15,Enterprise
