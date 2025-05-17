@@ -1,0 +1,50 @@
+#after running src/duplicate_resolution.py
+
+Original DataFrame:
+   CustomerID           Name  ...            Email_cleaned City_cleaned
+0           1       John Doe  ...     john.doe@example.com     new york
+1           2     Jane Smith  ...   jane.smith@example.com  los angeles
+2           3    Peter Jones  ...      peter.j@example.com       london
+3           4        John D.  ...     john.doe@example.com     new york
+4           5    Alice Brown  ...       alice.b@sample.com        paris
+5           6        Jane S.  ...   jane.smith@example.com           la
+6           7       Peter J.  ...  peter.jones@example.com       london
+7           8  Charlie Green  ...       charlie.g@test.org        tokyo
+8           4       John Doe  ...     john.doe@example.com           ny
+
+[9 rows x 10 columns]
+
+Duplicate Groups (based on cleaned Name and Email):
+
+Group: ('john doe', 'john.doe@example.com')
+   CustomerID      Name  ...         Email_cleaned City_cleaned
+0           1  John Doe  ...  john.doe@example.com     new york
+8           4  John Doe  ...  john.doe@example.com           ny
+
+[2 rows x 10 columns]
+
+DataFrame after resolving duplicates (first_valid):
+   CustomerID           Name  ...            Email_cleaned City_cleaned
+0           5    Alice Brown  ...       alice.b@sample.com        paris
+1           8  Charlie Green  ...       charlie.g@test.org        tokyo
+2           6        Jane S.  ...   jane.smith@example.com           la
+3           2     Jane Smith  ...   jane.smith@example.com  los angeles
+4           4        John D.  ...     john.doe@example.com     new york
+5           1       John Doe  ...     john.doe@example.com     new york
+6           7       Peter J.  ...  peter.jones@example.com       london
+7           3    Peter Jones  ...      peter.j@example.com       london
+
+[8 rows x 10 columns]
+
+DataFrame after resolving duplicates (custom concatenate for City/Country):
+   CustomerID           Name  ...            Email_cleaned  City_cleaned
+0           5    Alice Brown  ...       alice.b@sample.com         paris
+1           8  Charlie Green  ...       charlie.g@test.org         tokyo
+2           6        Jane S.  ...   jane.smith@example.com            la
+3           2     Jane Smith  ...   jane.smith@example.com   los angeles
+4           4        John D.  ...     john.doe@example.com      new york
+5           1       John Doe  ...     john.doe@example.com  ny; new york
+6           7       Peter J.  ...  peter.jones@example.com        london
+7           3    Peter Jones  ...      peter.j@example.com        london
+
+[8 rows x 10 columns]

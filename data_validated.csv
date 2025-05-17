@@ -1,0 +1,18 @@
+#after running src/data_validation.py
+
+precision    recall  f1-score   support
+
+        0       0.00      0.00      0.00       0.0
+        1       0.00      0.00      0.00       1.0
+
+    accuracy                           0.00       1.0
+    macro avg       0.00      0.00      0.00       1.0
+weighted avg       0.00      0.00      0.00       1.0
+
+Accuracy: 0.00
+
+Validation Predictions:
+    City_cleaned  city_valid_predicted
+0          tokyo                     0
+1  new york city                     1
+2          londn                     0
